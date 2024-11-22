@@ -1,11 +1,11 @@
 def calculate_average(*grades):
     total_grades = len(grades)
-    result = 0  # Initialize result to 0
+    result = 0
 
-    for grade in grades:  # Go through all grades with a for loop
-        result += grade  # Add each grade to result
+    for grade in grades:
+        result += grade
 
-    return result / total_grades  # Return the average
+    return result / total_grades
 
 
 # Test cases
